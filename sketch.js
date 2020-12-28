@@ -35,6 +35,7 @@ function setup() {
 
 
 	pillar1 = new rectangle();
+	pillar3 = new rectangle();
 	pillar2 = new rectangle2();
 	base1 = new base();
 
@@ -63,6 +64,7 @@ function draw() {
 
   pillar1.display();
   pillar2.display();
+  pillar3.display();
   base1.display();
 }
 
